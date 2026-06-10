@@ -14,6 +14,11 @@
      Example: "Student reviews of CS professors at [university] — useful because official
      course descriptions don't reflect teaching style, exam difficulty, or workload." -->
 
+Student reviews of EE professors at CCNY's Grove School of Engineering, drawn from the website of Rate My Professors. 
+
+This knowledge does not exist through official channels because the university only publishes faculty credentials and research interests. So knowledge of student assessments of grading style, exam difficulty, or whether a professor actually teaches well does not come through official channels. RMP allows students to find advice that normally only travels through word of mouth between students who know each other.
+
+
 ---
 
 ## Document Sources
@@ -22,18 +27,26 @@
      Be specific: include URLs, subreddit names, forum thread titles, or file names.
      Aim for variety — sources that together cover different subtopics or perspectives. -->
 
-| # | Source | Type | URL or file path |
-|---|--------|------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+The main sources for what I needed to find were on Discord, RMP, and Reddit in that order. Having Discord chats as a source was kind of unfeasible due to the general nature of how text conversations. Reddit proved to be very scarce for EE CCNY information, and for the threads that did exist, I did not really trust the source for information. RMP professor seemed to be the only reliable source in this matter.
+
+| #  | Source                | Type | URL                                                    |
+|----|-----------------------|------|--------------------------------------------------------|
+| 1  | Andrii Golovin        | RMP  | https://www.ratemyprofessors.com/professor/1823726     |
+| 2  | Joseph Barba          | RMP  | https://www.ratemyprofessors.com/professor/1937184     |
+| 3  | Liubov Kreminska      | RMP  | https://www.ratemyprofessors.com/professor/2071926     |
+| 4  | Nidal Khrais          | RMP  | https://www.ratemyprofessors.com/professor/802899      |
+| 5  | Ping-Pei Ho           | RMP  | https://www.ratemyprofessors.com/professor/288006      |
+| 6  | Julio Reyes           | RMP  | https://www.ratemyprofessors.com/professor/1199855     |
+| 7  | M. Ümit Uyar          | RMP  | https://www.ratemyprofessors.com/professor/519308      |
+| 8  | Ali Duale             | RMP  | https://www.ratemyprofessors.com/professor/1962765     |
+| 9  | Yi Sun                | RMP  | https://www.ratemyprofessors.com/professor/288005      |
+| 10 | Roger Dorsinville     | RMP  | https://www.ratemyprofessors.com/professor/287999      |
+| 11 | Samah Saeed           | RMP  | https://www.ratemyprofessors.com/professor/2839499     |
+| 12 | Alfredo Cano Martinez | RMP  | https://www.ratemyprofessors.com/professor/2132415     |
+| 13 | Hakan Pekcan          | RMP  | https://www.ratemyprofessors.com/professor/2129998     |
+| 14 | Sang-Woo Seo          | RMP  | https://www.ratemyprofessors.com/professor/1274141     |
+| 15 | Bruce Kim             | RMP  | https://www.ratemyprofessors.com/professor/2005606     |
+| 16 | Edward Baurin         | RMP  | https://www.ratemyprofessors.com/professor/1274143     |
 
 ---
 

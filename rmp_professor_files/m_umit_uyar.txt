@@ -1,0 +1,444 @@
+Professor: M. Umit Uyar
+============================================================
+School:              City College of New York
+Department:          Electrical Engineering
+RMP URL:             https://www.ratemyprofessors.com/professor/519308
+Overall Rating:      3.4 / 5.0
+Difficulty:          3.3 / 5.0
+Would Take Again:    66%
+Number of Ratings:   54
+
+Reviews (54 total)
+------------------------------------------------------------
+
+Review #1
+  Date:              2025-12-18 17:34:57 +0000 UTC
+  Course:            EE259
+  Clarity: 4/5  |  Helpful: 4/5  |  Difficulty: 4/5
+  Would Take Again:  Yes  |  Grade: C  |  Online: No
+  Attendance:        mandatory
+  Comment: When taking his class, I think most people will be put off by his attitude at the beginning, but you start to understand why. My advice is to do all the projects while understanding what/why you are coding it to prepare for the midterm/final. I recommend getting his textbook, as it explains some concepts and how to use the terminal commands needed.
+
+Review #2
+  Date:              2024-12-13 03:59:24 +0000 UTC
+  Course:            EE259
+  Clarity: 5/5  |  Helpful: 5/5  |  Difficulty: 1/5
+  Would Take Again:  Yes  |  Grade: A+  |  Online: No
+  Attendance:        mandatory
+  Comment: Might be the single best professor in the entire EE department. Class is very informative and he is happy to explain whatever questions u may have. Always ended class a bit early and was super sweet and caring towards his students. Very understanding of personal situations and exams/hw were a piece of cake. the absolute GOAT
+
+Review #3
+  Date:              2024-05-27 17:04:46 +0000 UTC
+  Course:            EE259
+  Clarity: 5/5  |  Helpful: 5/5  |  Difficulty: 3/5
+  Would Take Again:  Yes  |  Grade: A  |  Online: No
+  Attendance:        mandatory
+  Comment: He is known to be a bad teacher by others and I went in thinking the same. He will pick on you to explain part of the code and I barely knew anything about coding so I struggled a lot at first. He will make you upset but just take it with a smile and he will back off. He is 100% better than the other prof. Most of his projs are from textbook.
+
+Review #4
+  Date:              2023-11-07 21:46:34 +0000 UTC
+  Course:            EE259
+  Clarity: 1/5  |  Helpful: 1/5  |  Difficulty: 5/5
+  Would Take Again:  N/A  |  Grade: Not sure yet  |  Online: No
+  Attendance:        mandatory
+  Comment: I would never take a class with this prof again. Extremely rude to students & loves picking on them. Makes the class so hard so its impossible to pass. Harsh grader and doesn't care about his students, expects you to learn advanced coding on your own as an electrical eng. major. Do not recommend him at all. worst prof in ccny
+
+Review #5
+  Date:              2023-04-25 07:20:50 +0000 UTC
+  Course:            EE259
+  Clarity: 1/5  |  Helpful: 1/5  |  Difficulty: 3/5
+  Would Take Again:  N/A  |  Grade: B  |  Online: No
+  Attendance:        mandatory
+  Comment: The course he designed does not prepare students. does not cover abstraction or polymorphism, he only goes over the surface of things such as inheritance, he makes niche homeworks and gives answers later on. It produces code monkeys who can replicate code, very few from his class have make their own projects using his barebones teachings.
+
+Review #6
+  Date:              2022-08-22 11:06:29 +0000 UTC
+  Course:            EE259
+  Clarity: 5/5  |  Helpful: 5/5  |  Difficulty: 1/5
+  Would Take Again:  Yes  |  Grade: A  |  Online: No
+  Attendance:        mandatory
+  Comment: Be a teacher's pet he likes that. Always raise your hand and answer the questions.
+
+Review #7
+  Date:              2022-08-11 00:23:43 +0000 UTC
+  Course:            EE259
+  Clarity: 5/5  |  Helpful: 5/5  |  Difficulty: 4/5
+  Would Take Again:  Yes  |  Grade: C+  |  Online: No
+  Attendance:        mandatory
+  Comment: Uyar is a true sigma male. All students were struggling in exams but he was very nice and passed everyone.
+
+Review #8
+  Date:              2022-06-07 00:42:27 +0000 UTC
+  Course:            EE259
+  Clarity: 1/5  |  Helpful: 1/5  |  Difficulty: 5/5
+  Would Take Again:  N/A  |  Grade: N/A  |  Online: No
+  Attendance:        mandatory
+  Comment: Don't take
+
+Review #9
+  Date:              2021-12-11 05:53:08 +0000 UTC
+  Course:            EE59837
+  Clarity: 5/5  |  Helpful: 5/5  |  Difficulty: 4/5
+  Would Take Again:  Yes  |  Grade: A  |  Online: Yes
+  Attendance:        mandatory
+  Comment: Despite what everyone says, he is by far one of the best EE professor I took in CCNY. He picks on you and may hurt your feeling, but he forces you to learn these useful topics. Midterm and final are fair and projects are easy. Best advice is to read the chapter ahead before he teaches. Only con is that you have to pay $100 for textbook.
+
+Review #10
+  Date:              2021-10-08 10:00:58 +0000 UTC
+  Course:            EE259
+  Clarity: 3/5  |  Helpful: 3/5  |  Difficulty: 3/5
+  Would Take Again:  No  |  Grade: N/A  |  Online: No
+  Attendance:        mandatory
+  Comment: Mr. Uyar knows his stuff well, and you can learn a lot from his classes if you WANT TO. The narrative that he made a student cry in front of the entire class is unfortunately correct. His attitude is tough but it definitely prepares you for the real world and opens your eyes. Just try to avoid arguing if you are kind of a sensitive individual.
+
+Review #11
+  Date:              2021-05-31 22:41:55 +0000 UTC
+  Course:            EE259
+  Clarity: 5/5  |  Helpful: 5/5  |  Difficulty: 5/5
+  Would Take Again:  No  |  Grade: A+  |  Online: Yes
+  Attendance:        non mandatory
+  Comment: Uyar is awesome!
+
+Review #12
+  Date:              2021-05-25 21:34:23 +0000 UTC
+  Course:            EE259
+  Clarity: 4/5  |  Helpful: 4/5  |  Difficulty: 4/5
+  Would Take Again:  Yes  |  Grade: Not sure yet  |  Online: No
+  Attendance:        mandatory
+  Comment: He definitely has vast knowledge, during quarantine is hard to each but i see where people come from when they say he's the worst. I learned a lot, yeah he has a strong personality, but if you get pass that those projects are a lifesaver for a job interview. College ain't easy Good luck!
+
+Review #13
+  Date:              2021-02-03 03:21:16 +0000 UTC
+  Course:            EE259
+  Clarity: 1/5  |  Helpful: 1/5  |  Difficulty: 5/5
+  Would Take Again:  No  |  Grade: Incomplete  |  Online: Yes
+  Attendance:        mandatory
+  Comment: Rudest professor I've ever met! He is forcing us to share our screens with him and yelled at students to change their desktop wallpapers. Also criticizes students for wearing hats or coats at home and for having dark lighting settings. Totally not lenient or understanding of students' situations during this pandemic. AVOID AT ALL COSTS!!!!!!!!!
+
+Review #14
+  Date:              2020-07-29 20:07:06 +0000 UTC
+  Course:            EE259
+  Clarity: 5/5  |  Helpful: 5/5  |  Difficulty: 4/5
+  Would Take Again:  Yes  |  Grade: Rather not say  |  Online: No
+  Attendance:        mandatory
+  Comment: Hes an amazing professor with his valuable experience. In the beginning of the class I thought he picked me but thats not true later I love the way he was teaching. so while teaching hes rough, pay close attention and he pushes you to learn coding. He convince you to be a great coder. Hes generous and very helpful. Very intelligent professor.
+
+Review #15
+  Date:              2020-07-20 23:25:48 +0000 UTC
+  Course:            EE259
+  Clarity: 1/5  |  Helpful: 1/5  |  Difficulty: 3/5
+  Would Take Again:  No  |  Grade: N/A  |  Online: No
+  Attendance:        mandatory
+  Comment: Very disrespectful professor. Does not answer questions. he wants you to buy his book, but i think you can get a free copy if you look for it. He spend more time harassing student and laughing at them than teaching the class that you paid for. He also spend lot of time taking about his swimming glasses and skills, and life of engineers.
+
+Review #16
+  Date:              2020-05-29 18:37:48 +0000 UTC
+  Course:            EE259
+  Clarity: 3/5  |  Helpful: 3/5  |  Difficulty: 4/5
+  Would Take Again:  Yes  |  Grade: B  |  Online: Yes
+  Attendance:        mandatory
+  Comment: He will come off very disrespectful from the beginning of the semester. As the semester progress, He will get better and more understanding. Just make sure to pay attention to his lecture and read his notes. You will most likely be fine if you know a little bit of programming as a start off. Good luck
+
+Review #17
+  Date:              2020-05-27 15:22:40 +0000 UTC
+  Course:            EE259
+  Clarity: 4/5  |  Helpful: 4/5  |  Difficulty: 4/5
+  Would Take Again:  Yes  |  Grade: A+  |  Online: No
+  Attendance:        mandatory
+  Comment: His character is not the best as he picks on students and does not answer questions he feels are stupid. On the other hand, you learn a lot from the projects and the exams, which are almost entirely based off the projects. Later in the semester he is more friendly. Generous curve in the end, so dont drop unless you got 0s on everything.
+
+Review #18
+  Date:              2019-11-06 00:03:35 +0000 UTC
+  Course:            EE259
+  Clarity: 5/5  |  Helpful: 5/5  |  Difficulty: 2/5
+  Would Take Again:  Yes  |  Grade: A+  |  Online: No
+  Attendance:        mandatory
+  Comment: Professor Uyar can come off as rude and abrasive, but that's only because he has to deal with mind-numbingly stupid individuals on a daily basis. His class is very straight-forward and you will certainly walk away from it with an understanding of C++. If this is your first-time coding, you should expect to put in a few extra hours a week.
+
+Review #19
+  Date:              2019-05-28 22:36:59 +0000 UTC
+  Course:            EE259
+  Clarity: 2/5  |  Helpful: 2/5  |  Difficulty: 4/5
+  Would Take Again:  Yes  |  Grade: C+  |  Online: No
+  Attendance:        mandatory
+  Comment: He sucks. For every lecture, he talks 20 minutes about the code but spends 2 hours talking about life of an engineer or picking on people. Comment below stated that he made a girl cry, that true. He spent so much time belittling her. This guy is trash but sadly you have to take him because he the only professor offered. Study c++ gl
+
+Review #20
+  Date:              2019-05-28 21:08:54 +0000 UTC
+  Course:            EE259
+  Clarity: 1/5  |  Helpful: 1/5  |  Difficulty: 4/5
+  Would Take Again:  No  |  Grade: N/A  |  Online: No
+  Attendance:        mandatory
+  Comment: So far I had 30+ professors in college, I have never seen any professor disrespect students in such a personal way. He is a bully, he made a girl cry by exposing her weaknesses in programming in front of the whole class. He teaches C++ for half an hour, then you will have to figure everything else on your own. We dont care about his swimming.
+
+Review #21
+  Date:              2019-05-26 01:49:07 +0000 UTC
+  Course:            EE259
+  Clarity: 5/5  |  Helpful: 5/5  |  Difficulty: 3/5
+  Would Take Again:  Yes  |  Grade: A  |  Online: No
+  Attendance:        mandatory
+  Comment: If you put in the work, you'll learn a lot from Prof. Uyar. If you fail to put in the work, he'll rip apart your entire character. He can be kind of a mean sometimes, but his class is great.
+
+Review #22
+  Date:              2018-08-30 14:27:14 +0000 UTC
+  Course:            EE259
+  Clarity: 5/5  |  Helpful: 5/5  |  Difficulty: 5/5
+  Would Take Again:  Yes  |  Grade: B+  |  Online: No
+  Attendance:        mandatory
+  Comment: Professor Uyar is a really funny guy. At first he comes off as mean but that's him treating all the students fairly in preparing for the real world. Be prepared to answer questions and make sure you understand the basic concepts from 102.
+
+Review #23
+  Date:              2018-07-26 19:30:29 +0000 UTC
+  Course:            EE259
+  Clarity: 5/5  |  Helpful: 5/5  |  Difficulty: 4/5
+  Would Take Again:  Yes  |  Grade: A-  |  Online: No
+  Attendance:        non mandatory
+  Comment: You like this guy or not, you will learn A LOT of useful skills from this class. I have taken programming classes at 3 different schools and participated in many programming workshops and so far this class is the most enriching. It is tough by the amount of work you have to to, but trust me, the experience you get is valuable. He's such a character
+
+Review #24
+  Date:              2018-06-01 00:24:41 +0000 UTC
+  Course:            EE259
+  Clarity: 3/5  |  Helpful: 3/5  |  Difficulty: 3/5
+  Would Take Again:  No  |  Grade: A+  |  Online: No
+  Attendance:        mandatory
+  Comment: Kind of rude and painful at the start of the semester but warms up greatly after the first exam. Sharp sarcastic humor at the expense of 2 or 3 students that he plays with all semester. He really wants you to learn basic unix and basic c++. Not too hard if you remember everything from cs102
+
+Review #25
+  Date:              2018-03-05 13:31:51 +0000 UTC
+  Course:            EE259
+  Clarity: 4/5  |  Helpful: 4/5  |  Difficulty: 3/5
+  Would Take Again:  Yes  |  Grade: N/A  |  Online: No
+  Attendance:        N/A
+  Comment: Prof. is an excellent professor. Be willing to put in the effort and you will get a lot out of this class. Would take again.
+
+Review #26
+  Date:              2017-12-06 03:41:43 +0000 UTC
+  Course:            EE259
+  Clarity: 5/5  |  Helpful: 5/5  |  Difficulty: 4/5
+  Would Take Again:  Yes  |  Grade: N/A  |  Online: No
+  Attendance:        Y
+  Comment: So far I would consider prof. Uyar as a one of the best professors I've ever had throughout my education. He might seem mean and arrogant at the beginning, but it comes from his high standards of attitude, he will expect respect from you as a student, and he will provide same respect to you. Labs are easy going, after some while you will feel easy.
+
+Review #27
+  Date:              2017-11-30 19:14:06 +0000 UTC
+  Course:            EE259
+  Clarity: 5/5  |  Helpful: 5/5  |  Difficulty: 4/5
+  Would Take Again:  Yes  |  Grade: Not sure yet  |  Online: No
+  Attendance:        mandatory
+  Comment: He just wants you to work. He does not tolerate stupidity well, but he genuinely wants you to learn. He starts off with a mean-guy face, but he really opens up after a little. Just be respectful and put effort and you will be fine, his goal is not to fail you. Oh, and don't wear hats to his class.
+
+Review #28
+  Date:              2017-11-10 17:54:36 +0000 UTC
+  Course:            EE259
+  Clarity: 4/5  |  Helpful: 4/5  |  Difficulty: 3/5
+  Would Take Again:  Yes  |  Grade: N/A  |  Online: No
+  Attendance:        N/A
+  Comment: Professor Uyar is a great teacher and is very informed on what he teaches
+
+Review #29
+  Date:              2017-03-08 14:26:59 +0000 UTC
+  Course:            EE259
+  Clarity: 1/5  |  Helpful: 1/5  |  Difficulty: 5/5
+  Would Take Again:  No  |  Grade: N/A  |  Online: No
+  Attendance:        mandatory
+  Comment: Has to be the worst professor ever at CCNY. HE is supposedly the director of the CPE Department. He has no right to be teaching EE courses. Terrible attitude, arrogant, abusive towards students. AVOID AT ALL COSTS!
+
+Review #30
+  Date:              2017-03-07 13:08:44 +0000 UTC
+  Course:            EE259
+  Clarity: 1/5  |  Helpful: 1/5  |  Difficulty: 5/5
+  Would Take Again:  No  |  Grade: A  |  Online: No
+  Attendance:        mandatory
+  Comment: He is the worst of the worst at CCNY. He has an attitude problem when I took him, complaining of every little thing and not explaining anything. I have no idea what his problem is. And he calls himself the head of a department. Unbelievable. SAD!
+
+Review #31
+  Date:              2017-01-13 05:23:45 +0000 UTC
+  Course:            CSC102
+  Clarity: 4/5  |  Helpful: 4/5  |  Difficulty: 4/5
+  Would Take Again:  Yes  |  Grade: B  |  Online: No
+  Attendance:        mandatory
+  Comment: In the beginning of the semester he may seem really annoyed by students even breathing, but at the end he comes around. His lectures are good, he basically gives you the answers to the projects, but make sure you understand the projects because the exams are worth 80% of your grade. Stick with the class til the end, he is not looking to fail anyone
+
+Review #32
+  Date:              2016-12-30 21:49:06 +0000 UTC
+  Course:            G6000
+  Clarity: 5/5  |  Helpful: 5/5  |  Difficulty: 3/5
+  Would Take Again:  Yes  |  Grade: A-  |  Online: No
+  Attendance:        non mandatory
+  Comment: He is very cool. No sure how to get a good grade, but you won't fail even if you are not well prepared
+
+Review #33
+  Date:              2016-12-19 21:11:27 +0000 UTC
+  Course:            CS102
+  Clarity: 4/5  |  Helpful: 4/5  |  Difficulty: 3/5
+  Would Take Again:  Yes  |  Grade: A+  |  Online: No
+  Attendance:        mandatory
+  Comment: Strict but a good professor. Has a clear grading outline. 20% 1st exam, 20% midterm, 40% final, and 20% 10 projects over the span of the course. The projects are do-able, some are short some are long, but they arent worth much so if you get a 50 on a project, its no big deal. He will also call you out if you come in late, so come on time! Dont SKIP
+
+Review #34
+  Date:              2016-09-11 19:01:10 +0000 UTC
+  Course:            CSC102
+  Clarity: 4/5  |  Helpful: 4/5  |  Difficulty: 4/5
+  Would Take Again:  Yes  |  Grade: A  |  Online: No
+  Attendance:        mandatory
+  Comment: Strict but hilarious guy. Very fair and understanding.  You will learn the material if you listen to him.
+
+Review #35
+  Date:              2016-08-10 20:44:08 +0000 UTC
+  Course:            EE598
+  Clarity: 1/5  |  Helpful: 1/5  |  Difficulty: 2/5
+  Would Take Again:  No  |  Grade: A  |  Online: No
+  Attendance:        mandatory
+  Comment: Bad idea to choose him for senior design - your life will be completely miserable for an entire year. He belittles your efforts and constantly whines, complains and yells about the most insignificant things. The project seemed interesting but it turns out that it's not one bit original and I learned very little by being a part of it. Simply avoid!
+
+Review #36
+  Date:              2016-05-05 16:40:04 +0000 UTC
+  Course:            CSC10200
+  Clarity: 3/5  |  Helpful: 1/5  |  Difficulty: 3/5
+  Would Take Again:  N/A  |  Grade: A  |  Online: No
+  Attendance:        mandatory
+  Comment: Uyar is a sarcastic, impatient, rude man. His humor is actually funny though. He gives straightforward lectures, and his assignments can be solved just from the notes. Go to him for help as a last resort. He will belittle and mock you. TAs are nicer. Exams are self explanatory, hard for some, but he gives you samples to copy-paste. Easiest CSC102.
+
+Review #37
+  Date:              2015-07-26 22:59:20 +0000 UTC
+  Course:            EE259
+  Clarity: 5/5  |  Helpful: 4/5  |  Difficulty: 2/5
+  Would Take Again:  N/A  |  Grade: A  |  Online: No
+  Attendance:        mandatory
+  Comment: Tough at first but gets better as the class goes on. Likes to pick on students but that's only when the student doesn't know his stuff. Great lecturer and when he teaches, he teaches well. Don't ask too many questions. Easy grader, tests & projects aren't tough as long as you know the material. Curves heavily in the end. Work hard & you'll do good.
+
+Review #38
+  Date:              2015-05-28 18:53:35 +0000 UTC
+  Course:            EE259
+  Clarity: 3/5  |  Helpful: 3/5  |  Difficulty: 2/5
+  Would Take Again:  N/A  |  Grade: A  |  Online: No
+  Attendance:        mandatory
+  Comment: this guy make fun of everyone and you cant really ask him anything. Best thing for this class do the projects and try to understand materials and read from the book he gives. Exams seems hard and you probably wont score 80s or 90s but at the end of term he curves mad. The minimum he gives out is a C. Just do projects and try to understand it.
+
+Review #39
+  Date:              2014-11-19 01:12:48 +0000 UTC
+  Course:            EE259
+  Clarity: 4/5  |  Helpful: 3/5  |  Difficulty: 1/5
+  Would Take Again:  N/A  |  Grade: N/A  |  Online: No
+  Attendance:        N/A
+  Comment: He made fun of ever one he can imagine.  Ask him questions will be a nightmare if you don't ask the right question. He is an easy grader and an average teacher. The passing rate is around 90%. You will get the basic ideas out of this class and it is helpful. He except you to read, understand, and do the projects.  His textbook is a great tool.
+
+Review #40
+  Date:              2014-05-20 15:23:08 +0000 UTC
+  Course:            EE259
+  Clarity: 2/5  |  Helpful: 1/5  |  Difficulty: 3/5
+  Would Take Again:  N/A  |  Grade: N/A  |  Online: No
+  Attendance:        N/A
+  Comment: A totally horrible attitude. Does not teach - just torments the class with his egotistical, condescending rants. Explicitly stated that this class is a complete waste of his "precious" time. Again, just absolutely terrible.
+
+Review #41
+  Date:              2014-03-19 17:15:07 +0000 UTC
+  Course:            EE259
+  Clarity: 2/5  |  Helpful: 1/5  |  Difficulty: 2/5
+  Would Take Again:  N/A  |  Grade: N/A  |  Online: No
+  Attendance:        N/A
+  Comment: A total ogre and the most fastidious person you will ever meet.  Dont ask questions because he will just be very nasty for no reason.  Shows up 30 mins late to each class and spends the first hour yelling, criticizing and talking about how great he is.  Everything he "teaches" can be learned easily using online tutorials. Avoid this POS.
+
+Review #42
+  Date:              2009-05-26 17:34:38 +0000 UTC
+  Course:            EE259
+  Clarity: 3/5  |  Helpful: 3/5  |  Difficulty: 3/5
+  Would Take Again:  N/A  |  Grade: N/A  |  Online: No
+  Attendance:        N/A
+  Comment: You won't learn things in this class like you would at Csc 102, no concept, you will just learn about how to get things done.  So my advice is take him, do not speak to him because he gets agitated, and just follow his directions and you will end up with a good grade.
+
+Review #43
+  Date:              2008-11-18 20:19:37 +0000 UTC
+  Course:            EE259
+  Clarity: 2/5  |  Helpful: 2/5  |  Difficulty: 2/5
+  Would Take Again:  N/A  |  Grade: N/A  |  Online: No
+  Attendance:        N/A
+  Comment: horrible. always late to class, talks about himself, doesn't teach the material. waste of your time. take someone else if you actually want to learn something
+
+Review #44
+  Date:              2007-06-12 02:31:44 +0000 UTC
+  Course:            EE259
+  Clarity: 3/5  |  Helpful: 2/5  |  Difficulty: 3/5
+  Would Take Again:  N/A  |  Grade: N/A  |  Online: No
+  Attendance:        N/A
+  Comment: Here's the deal: Don't buy the book, don't talk to him if you dont have to, don't ask anything. At the beginning, he acts really mean but that's just to make you work. By the second exam he becomes very nice and easy going. If you're among the first 15 students in the standing you might get an A. Just do your best and dont be lazy, he sees that.
+
+Review #45
+  Date:              2007-03-20 01:15:15 +0000 UTC
+  Course:            EE259
+  Clarity: 1/5  |  Helpful: 1/5  |  Difficulty: 4/5
+  Would Take Again:  N/A  |  Grade: N/A  |  Online: No
+  Attendance:        N/A
+  Comment: height and ego are inversely proportional.
+
+Review #46
+  Date:              2007-01-02 12:26:55 +0000 UTC
+  Course:            EEB
+  Clarity: 4/5  |  Helpful: 3/5  |  Difficulty: 3/5
+  Would Take Again:  N/A  |  Grade: N/A  |  Online: No
+  Attendance:        N/A
+  Comment: He has some attitude problems. But dont let it get to you. His tests are tricky, and he really doesn't expects you to get high grades in his exams nor on his projects. He curves big time. Do not buy the textbook. absolutely no use. just get the notes he gives.
+
+Review #47
+  Date:              2005-12-02 09:04:45 +0000 UTC
+  Course:            EE259
+  Clarity: 5/5  |  Helpful: 3/5  |  Difficulty: 2/5
+  Would Take Again:  N/A  |  Grade: N/A  |  Online: No
+  Attendance:        N/A
+  Comment: He is one of the best professors in EE dept. Even though he is kinda mean sometimes, but trust me this guy knows how to teach. And he is very funny, too. Great Professor. Exams are not that hard and everything is very organized.
+
+Review #48
+  Date:              2005-08-31 18:15:46 +0000 UTC
+  Course:            EE210259
+  Clarity: 5/5  |  Helpful: 4/5  |  Difficulty: 1/5
+  Would Take Again:  N/A  |  Grade: N/A  |  Online: No
+  Attendance:        N/A
+  Comment: dont speak to him, just register and get A like i did, his ego is in the clouds
+
+Review #49
+  Date:              2004-12-13 14:34:13 +0000 UTC
+  Course:            G6000
+  Clarity: 5/5  |  Helpful: 5/5  |  Difficulty: 4/5
+  Would Take Again:  N/A  |  Grade: N/A  |  Online: No
+  Attendance:        N/A
+  Comment: He has teaching skills
+
+Review #50
+  Date:              2004-12-12 10:13:55 +0000 UTC
+  Course:            PROTOCOL
+  Clarity: 1/5  |  Helpful: 1/5  |  Difficulty: 5/5
+  Would Take Again:  N/A  |  Grade: N/A  |  Online: No
+  Attendance:        N/A
+  Comment: Very hard to talk to. He is not clear most of the time. Expects you to know everything prior to the class starts.
+
+Review #51
+  Date:              2004-12-11 18:33:51 +0000 UTC
+  Course:            EE259
+  Clarity: 5/5  |  Helpful: 5/5  |  Difficulty: 4/5
+  Would Take Again:  N/A  |  Grade: N/A  |  Online: No
+  Attendance:        N/A
+  Comment: He happens to be one of the best professors at city college. I really enjoyed his class a lot.
+
+Review #52
+  Date:              2004-12-08 15:24:19 +0000 UTC
+  Course:            EE259
+  Clarity: 5/5  |  Helpful: 5/5  |  Difficulty: 1/5
+  Would Take Again:  N/A  |  Grade: N/A  |  Online: No
+  Attendance:        N/A
+  Comment: very good!!!
+
+Review #53
+  Date:              2004-12-07 16:22:42 +0000 UTC
+  Course:            EE259
+  Clarity: 5/5  |  Helpful: 5/5  |  Difficulty: 3/5
+  Would Take Again:  N/A  |  Grade: N/A  |  Online: No
+  Attendance:        N/A
+  Comment: No Comments
+
+Review #54
+  Date:              2004-12-02 22:54:13 +0000 UTC
+  Course:            EE259
+  Clarity: 5/5  |  Helpful: 5/5  |  Difficulty: 5/5
+  Would Take Again:  N/A  |  Grade: N/A  |  Online: No
+  Attendance:        N/A
+  Comment: Great professorcares about students a lot.

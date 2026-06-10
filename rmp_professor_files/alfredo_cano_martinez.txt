@@ -1,0 +1,84 @@
+Professor: Alfredo Cano Martinez
+============================================================
+School:              City College of New York
+Department:          Electrical Engineering
+RMP URL:             https://www.ratemyprofessors.com/professor/2132415
+Overall Rating:      2.1 / 5.0
+Difficulty:          4.2 / 5.0
+Would Take Again:    33%
+Number of Ratings:   9
+
+Reviews (9 total)
+------------------------------------------------------------
+
+Review #1
+  Date:              2024-12-25 16:34:43 +0000 UTC
+  Course:            EE425
+  Clarity: 5/5  |  Helpful: 5/5  |  Difficulty: 3/5
+  Would Take Again:  Yes  |  Grade: A  |  Online: No
+  Attendance:        mandatory
+  Comment: I don't understand why Prof. Cano has such a low score. Yes he is rigid with reports but he works with you if you ask him to. He will make you work for that 10/10 but, again, it's not bad at all. Just follow his report guidelines. His final is not bad at all too. 5/5 prof would take again.
+
+Review #2
+  Date:              2024-05-27 16:55:03 +0000 UTC
+  Course:            EE42500
+  Clarity: 1/5  |  Helpful: 1/5  |  Difficulty: 5/5
+  Would Take Again:  N/A  |  Grade: A  |  Online: No
+  Attendance:        mandatory
+  Comment: This is probably the worst prof I have taken for LAB. He takes this one-credit class way to seriously. He does have his favorites. He makes you write a lot of stuff for each LAB. He doesn't really help when you ask for it, instead, he says to look at your LAB outline. I would suggest taking the other prof for this lab.
+
+Review #3
+  Date:              2024-05-24 20:00:12 +0000 UTC
+  Course:            EE42500
+  Clarity: 1/5  |  Helpful: 1/5  |  Difficulty: 5/5
+  Would Take Again:  N/A  |  Grade: B+  |  Online: No
+  Attendance:        mandatory
+  Comment: Not a good choice for EE's but maybe for CPE's, if you took 344 before this class then you'll have an easier time but if you havent then its best to stick with the other lab professor. Unfortunately, he demands a lot for lab reports for just a 1 credit class, should've guided us through some assembly code for some of the difficult labs.
+
+Review #4
+  Date:              2022-11-12 02:08:27 +0000 UTC
+  Course:            EE425
+  Clarity: 1/5  |  Helpful: 1/5  |  Difficulty: 4/5
+  Would Take Again:  N/A  |  Grade: Rather not say  |  Online: No
+  Attendance:        mandatory
+  Comment: I honestly thought the labs itself weren't that bad, its his demeanor that's a problem. He expects you to "learn" but doesn't want to point you in the right direction when you ask him questions. Then he wants lab reports that answers all the questions in the lab and then asks you why you didn't ask him questions when you submit them incomplete.
+
+Review #5
+  Date:              2021-12-23 05:09:25 +0000 UTC
+  Course:            EE425
+  Clarity: 1/5  |  Helpful: 1/5  |  Difficulty: 4/5
+  Would Take Again:  No  |  Grade: C  |  Online: No
+  Attendance:        mandatory
+  Comment: He is a lab professor but with some issues. Gets agitated really quickly if you ask questions. Has his way of teaching which is old school, wants you to work really hard for a 1 credit class that isn't that useful but somewhat knowledgeable. Please have time set out for this class because the lab reports/lab itself are a pain only for his class tho
+
+Review #6
+  Date:              2021-12-11 21:02:27 +0000 UTC
+  Course:            EE425
+  Clarity: 1/5  |  Helpful: 1/5  |  Difficulty: 5/5
+  Would Take Again:  No  |  Grade: Drop/Withdrawal  |  Online: No
+  Attendance:        mandatory
+  Comment: Besides the pop quizzes, the final is the worse. I am just lost in words. Lab reports are graded very harshly. Please make sure you send .asm and. hex files separately and not on the lab report. He takes a lot of points if you merge your lab report with the assembly code.
+
+Review #7
+  Date:              2021-12-11 20:52:08 +0000 UTC
+  Course:            EE425
+  Clarity: 1/5  |  Helpful: 1/5  |  Difficulty: 5/5
+  Would Take Again:  No  |  Grade: Not sure yet  |  Online: Yes
+  Attendance:        mandatory
+  Comment: Professor Martinez means well but by no means can teach the class properly. I had to consult professor Hoxha for everything and professor Martinez got mad at me for going to him even though he cant explain properly.
+
+Review #8
+  Date:              2017-11-30 19:21:10 +0000 UTC
+  Course:            EE42500
+  Clarity: 3/5  |  Helpful: 3/5  |  Difficulty: 3/5
+  Would Take Again:  Yes  |  Grade: Not sure yet  |  Online: No
+  Attendance:        mandatory
+  Comment: He will belittle you a lot, so get used to it. It is impossible to do the experiments on your own, as you never really learn how to code. Textbook is awful. It's only a 1Cr course and I promise it'll be your most stressful class because he just places SO much unnecessary pressure on you. He tries to compensate as he really just wants you to learn.
+
+Review #9
+  Date:              2017-08-21 22:20:25 +0000 UTC
+  Course:            EE42500
+  Clarity: 5/5  |  Helpful: 5/5  |  Difficulty: 4/5
+  Would Take Again:  Yes  |  Grade: A+  |  Online: No
+  Attendance:        mandatory
+  Comment: Not easy, but also not hard. You have to understand the codes from top to bottom so that you can ace the quizzes. He understands that the course is hard and is willing to help you finish your code. If you show interest in this subject, he will engage in serious and intersting discussions. I would recommend taking him because you learn in his class.
