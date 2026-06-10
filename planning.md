@@ -55,9 +55,16 @@ The main sources for what I needed to find were on Discord, RMP, and Reddit in t
 
 **Chunk size:**
 
+Chunked at the review level.
+
 **Overlap:**
 
+No overlap.
+
 **Reasoning:**
+
+Each RMP review is a self-contained unit of opinion from a single student about a single experience. This is the natural way to do it in my opinion, because any other way risks splitting a student's complaint from its respective context. No overlap is needed since chunks are not positionally related. No minimum length filter because even short reviews are valid.
+
 
 ---
 
@@ -69,11 +76,17 @@ The main sources for what I needed to find were on Discord, RMP, and Reddit in t
      would you weigh in choosing a different embedding model — context length, multilingual
      support, accuracy on domain-specific text, latency? -->
 
-**Embedding model:**
+**Embedding model:** 
+
+all-MiniLM-L6-v2 via sentence-transformers
 
 **Top-k:**
 
+5
+
 **Production tradeoff reflection:**
+
+all-MiniLM-L6-v2 is fast and free but general-purpose. For real deployment, text-embedding-3-large would give better accuracy on informal student writing at the cost of API latency and money. 
 
 ---
 
@@ -84,13 +97,20 @@ The main sources for what I needed to find were on Discord, RMP, and Reddit in t
      is right or wrong. "What are good dining halls?" is too vague.
      "What do students say about wait times at [dining hall name] during lunch?" is testable. -->
 
-| # | Question | Expected answer |
-|---|----------|-----------------|
-| 1 | | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
+```markdown
+| # | Question                                  | Expected answer                            |
+|---|-------------------------------------------|--------------------------------------------|
+| 1 | Which EE professor is easiest to pass?    | Khrais or Pekcan named, citing high        |
+|   |                                           | ratings and would-take-again               |
+| 2 | Does Golovin curve grades?                | No — multiple reviews explicitly say       |
+|   |                                           | he does not curve                          |
+| 3 | Who gives the most partial credit?        | Barba — reviews note he is generous with   |
+|   |                                           | partial credit for shown work              |
+| 4 | What do students say about Barba's exams? | Exam-heavy grading, curves class average   |
+|   |                                           | to 60,  drops lowest midterm               |
+| 5 | Is Pekcan a good professor for circuits?  | Yes — reviews praise his clarity and       |
+|   |                                           | helpfulness for ENGR204                    |
+```
 
 ---
 
@@ -100,9 +120,9 @@ The main sources for what I needed to find were on Discord, RMP, and Reddit in t
      Consider: noisy or inconsistent documents, missing source attribution, off-topic
      retrieval, chunks that split key information across boundaries. -->
 
-1.
+1. Some professors have very few reviews, which will affect retrieval quality for those professors. Cannot really do anything about it, just a gap.
 
-2.
+2. Some reviews are sarcastic or clearly jokes. For example, a sarcastic Barba review saying "Easiest class ever! Anyone who gets below an A+ needs to drop this major" might be treated as a genuine response by the LLM.
 
 ---
 
@@ -113,6 +133,40 @@ The main sources for what I needed to find were on Discord, RMP, and Reddit in t
      Label each stage with the tool or library you're using.
      You can use ASCII art, a Mermaid diagram, or embed a sketch as an image.
      You'll use this diagram as context when prompting AI tools to implement each stage. -->
+
+     [Rate My Professors website]
+          │
+          ▼
+    [ scrape_rmp.py ]
+    cloudscraper → RMP GraphQL API
+    → 16 raw .txt files saved to rmp_professor_files/
+          │
+          ▼
+    [ ingest.py ]
+    Parse reviews → extract Comment: blocks
+    one chunk per review → data/chunks/chunks.json
+          │
+          ▼
+    [ embed.py ]
+    SentenceTransformer("all-MiniLM-L6-v2")
+    → ChromaDB (persistent) → data/chroma_db/
+    Collection: "unofficial_guide"
+          │
+          ▼
+    [ retrieve.py ]
+    Query → embed query → semantic search (k=5)
+    → return top chunks + source filenames
+          │
+          ▼
+    [ query.py ]
+    Grounded generation via Groq llama-3.3-70b-versatile
+    System prompt enforces: answer only from retrieved context
+    → {"answer": str, "sources": list}
+          │
+          ▼
+    [ app.py ]
+    Gradio UI: text input → ask() → answer + sources displayed
+
 
 ---
 
@@ -128,8 +182,18 @@ The main sources for what I needed to find were on Discord, RMP, and Reddit in t
      "I'll give Claude my Chunking Strategy section and ask it to implement chunk_text()
      with my specified chunk size and overlap" is a plan. -->
 
+**Milestone 1 and 2:**
+
+Claude Code. Input: Project context. Help brainstorm project approach and reason through various architectural decisions. Help write the planning.md in appropriate technical terms as well as make formatting and tedious sections easier to write (i.e describing architectural diagram and getting ASCII drawing)
+
 **Milestone 3 — Ingestion and chunking:**
+
+Claude Code. Input: Documents and Chunking Strategy sections. Produce ingest.py that extracts one Comment: block per review and saves to chunks.json. Verify by checking chunk count matches ~570 total reviews across all 16 files.
 
 **Milestone 4 — Embedding and retrieval:**
 
+Claude Code. Input: Retrieval Approach section + chunks.json. Produce embed.py and retrieve.py using all-MiniLM-L6-v2 and ChromaDB with source metadata. Verify by running test queries and confirming returned sources match expected professors.
+
 **Milestone 5 — Generation and interface:**
+
+Claude Code. Input: grounding requirements + Evaluation Plan. Produce query.py with grounded system prompt and app.py Gradio UI. Verify by running all 5 eval questions and confirming answers cite real source files and refuse out-of-scope questions.
