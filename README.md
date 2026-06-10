@@ -61,11 +61,19 @@ The main sources for what I needed to find were on Discord, RMP, and Reddit in t
 
 **Chunk size:**
 
+One review per chunk, not length-based. Each `Comment:` block in the raw .txt files is extracted as a single chunk, regardless of length. This preserves the natural unit of the data (one experience).
+
 **Overlap:**
+
+None, because each review is independent of another one. Overlap would only make sense if a single piece of information could span two adjacent chunks, which isn't the case here.
 
 **Why these choices fit your documents:**
 
+Each RMP review is a self-contained unit of opinion from a single student about a single professor. Splitting a review mid-sentence would risk detaching a complaint or compliment from its context
+
 **Final chunk count:**
+
+588 chunks across 16 files.
 
 ---
 
@@ -79,7 +87,12 @@ The main sources for what I needed to find were on Discord, RMP, and Reddit in t
 
 **Model used:**
 
+all-MiniLM-L6-v2 via sentence-transformers
+
+
 **Production tradeoff reflection:**
+
+all-MiniLM-L6-v2 is fast and free but general-purpose. For real deployment, text-embedding-3-large would give better accuracy on informal student writing at the cost of API latency and money. 
 
 ---
 
@@ -94,7 +107,18 @@ The main sources for what I needed to find were on Discord, RMP, and Reddit in t
 
 **System prompt grounding instruction:**
 
+The system prompt passed to `llama-3.3-70b-versatile` via Groq is:
+
+> "You are a helpful assistant for CCNY EE students. Answer questions ONLY using the review excerpts provided. Do not use any outside knowledge. If the provided excerpts do not contain enough information to answer the question, say exactly: 'I don't have enough information in the reviews to answer that.' Always cite which source file(s) your answer draws from."
+
+The out-of-scope test confirmed this works: asking "What is the best restaurant near CCNY?" returned the exact refusal phrase even though ChromaDB still returned chunks (the LLM correctly recognized none of them were relevant to the question).
+
+
 **How source attribution is surfaced in the response:**
+
+Source attribution is built programmatically in `query.py` before the LLM call, not inferred from the LLM's output. 
+
+After `retrieve()` returns the top-k chunks, the sources list is constructed as `list(dict.fromkeys(c["source"] for c in chunks))`, unique filenames in retrieval order. The LLM is not trusted to decide which sources it drew from; the pipeline tracks that independently and surfaces it as a separate field in the response dict: `{"answer": str, "sources": list}`.
 
 ---
 
@@ -106,11 +130,11 @@ The main sources for what I needed to find were on Discord, RMP, and Reddit in t
 
 | # | Question | Expected answer | System response (summarized) | Retrieval quality | Response accuracy |
 |---|----------|-----------------|------------------------------|-------------------|-------------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+| 1 | Which EE professor is easiest to pass? | Khrais or Pekcan named, citing high ratings and would-take-again | Named Uyar and Sun as top candidates with supporting quotes; Pekcan appeared in retrieved sources but wasn't the primary answer | Relevant | Partially accurate — Uyar is defensible but Pekcan/Khrais were expected |
+| 2 | Does Golovin curve grades? | No — multiple reviews explicitly say he does not curve | Correctly answered no, quoted review directly: "he will not curve" | Relevant | Accurate |
+| 3 | Who gives the most partial credit? | Barba — reviews note he is generous with partial credit for shown work | Named Barba from top result; also mentioned Kreminska gives good partial credit | Partially relevant | Partially accurate — Barba identified but answer was less decisive than expected |
+| 4 | What do students say about Barba's exams? | Exam-heavy grading, curves class average, drops lowest midterm | Summarized as hard exams with a curve and generous partial credit for shown work; matched review content well | Relevant | Accurate |
+| 5 | Is Pekcan a good professor for circuits? | Yes — reviews praise his clarity and helpfulness for ENGR204 | Yes — all 8 retrieved chunks from hakan_pekcan.txt, praised teaching style, easy grading, and project-based midterm | Relevant | Accurate |
 
 **Retrieval quality:** Relevant / Partially relevant / Off-target  
 **Response accuracy:** Accurate / Partially accurate / Inaccurate
@@ -132,11 +156,23 @@ The main sources for what I needed to find were on Discord, RMP, and Reddit in t
 
 **Question that failed:**
 
+"Who gives the most partial credit?" and any query containing the words "who", "how", "homework", "those", or "show".
+
 **What the system returned:**
+
+Results restricted entirely to `ping-pei_ho.txt`, so the LLM answered about Professor Ho even though the question had nothing to do with him. 
+
+For the partial credit question specifically, it returned Ho's reviews about deducting points from lab reports, the opposite of what was asked.
 
 **Root cause (tied to a specific pipeline stage):**
 
+The bug was in the retrieval stage, in `retrieve.py`. The professor name detection used a plain substring check: `if last_name in query_lower`. The key `"ho"` in the `PROFESSOR_MAP` is only two letters, and those two letters appear inside dozens of common English words. 
+
+`"ho"` is a substring of `"who"`, `"how"`, `"homework"`, `"those"`, `"show"`, and others. So the filter fired incorrectly on those queries, and ChromaDB was told to restrict its search to only `ping-pei_ho.txt`, about 40 chunks out of 588, before semantic search even ran. The LLM then had no choice but to answer from that restricted pool.
+
 **What you would change to fix it:**
+
+Replace the substring check with a word-boundary regex: `re.search(r'\b' + re.escape(last_name) + r'\b', query_lower)`. The `\b` anchors require non-word characters (spaces, punctuation, or start/end of string) on both sides of the match, so `"who"` no longer triggers it but a query explicitly saying "Ho" or "Professor Ho" still does. This fix was applied and confirmed working.
 
 ---
 
@@ -147,7 +183,15 @@ The main sources for what I needed to find were on Discord, RMP, and Reddit in t
 
 **One way the spec helped you during implementation:**
 
+The architecture diagram in planning.md gave a clear stage-by-stage breakdown, scrape → ingest → embed → retrieve → generate → UI, that mapped directly to individual Python files. 
+
+This made it possible to direct Claude Code at exactly one stage at a time, handing it only the relevant section of the spec as context. Without that structure, prompting an AI tool to "build a RAG system" would have produced something much harder to verify or debug, because there would be no agreed-upon breakdown of what each file was supposed to do.
+
 **One way your implementation diverged from the spec, and why:**
+
+The spec described pure semantic search with top-k=8 and made no mention of professor name detection. That filter was added during implementation after observing that professor-specific queries like "Does Golovin curve?" were returning chunks from other professors alongside the relevant ones. 
+
+The fix was to detect a professor's last name in the query and restrict ChromaDB to that professor's source file before running semantic search. This wasn't in the spec because it only became an obvious need once the system was running and returning real results.
 
 ---
 
@@ -164,12 +208,28 @@ The main sources for what I needed to find were on Discord, RMP, and Reddit in t
 
 **Instance 1**
 
-- *What I gave the AI:*
-- *What it produced:*
-- *What I changed or overrode:*
+- *What I gave the AI:* 
+
+A sample of the raw `.txt` file format showing the `Review #N` header and `Comment:` block structure, plus the Chunking Strategy section from planning.md specifying one-review-per-chunk with no overlap.
+
+- *What it produced:* 
+
+`ingest.py`: splits on `^Review #\d+` regex, extracts `Comment:` blocks including multi-line ones, cleans HTML entities via `html.unescape()`, collapses whitespace, and outputs `chunks.json` with `chunk_id`, `source`, and `text` fields.
+
+- *What I changed or overrode:* 
+
+Added a `professor` field to each chunk (extracted from the `Professor:` header line at the top of each file). The original spec only included `chunk_id` and `source`, but having the professor name as explicit metadata made downstream filtering cleaner without having to parse filenames.
 
 **Instance 2**
 
-- *What I gave the AI:*
-- *What it produced:*
-- *What I changed or overrode:*
+- *What I gave the AI:* 
+
+The `PROFESSOR_MAP` dictionary mapping last names to filenames, and a description of the desired behavior: if the query mentions a professor's last name, restrict the ChromaDB search to only that professor's source file.
+
+- *What it produced:* 
+
+The detection logic using a plain `if last_name in query_lower` substring check inside `retrieve()`.
+
+- *What I changed or overrode:* 
+
+Had to override the detection logic after discovering it was causing "who", "how", and "homework" to silently filter every query to `ping-pei_ho.txt`. Replaced the substring check with `re.search(r'\b' + re.escape(last_name) + r'\b', query_lower)` to require whole-word matches only.
