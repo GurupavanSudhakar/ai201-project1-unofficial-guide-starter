@@ -82,7 +82,7 @@ all-MiniLM-L6-v2 via sentence-transformers
 
 **Top-k:**
 
-5
+8
 
 **Production tradeoff reflection:**
 
