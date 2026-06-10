@@ -1,3 +1,4 @@
+import re
 from sentence_transformers import SentenceTransformer
 import chromadb
 
@@ -49,7 +50,7 @@ def retrieve(query, k=8):
     where = None
     query_lower = query.lower()
     for last_name, filename in PROFESSOR_MAP.items():
-        if last_name in query_lower:
+        if re.search(r'\b' + re.escape(last_name) + r'\b', query_lower):
             where = {"source": filename}
             break
     result = collection.query(query_embeddings=[vec], n_results=k, where=where)
